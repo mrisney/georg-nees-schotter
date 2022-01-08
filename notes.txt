@@ -1,0 +1,9 @@
+using AppKits NSColor algorithim:
+
+let color = NSColor.rainbowColor(
+                offset: 0.0,
+                percent: 1.0 * row / ROWS,
+                alpha: 1 - row * 0.035
+            )
+
+... them fill with color, for each row.
