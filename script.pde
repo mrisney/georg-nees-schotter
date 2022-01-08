@@ -10,6 +10,7 @@ float dampen=0.45;      // soften random effect for position
 
 void setup() { 
   size(480,800);
+  colorMode(HSB);
   background(255);   // set background color to white
   stroke(0);         // set pen color to black
   smooth();          // use line smoothing 
@@ -27,6 +28,7 @@ void draw() {
       translate( padding + (x * sqrsize) - (.5*sqrsize) + (randval*dampen), 
      padding + (y * sqrsize) - (.5*sqrsize) + (randval*dampen));
       rotate(radians(randval));
+       fill(255*(.5+.5*cos(y)),255,255,80);
       rect(0,0,sqrsize,sqrsize);
       popMatrix();
     } // end of x loop
