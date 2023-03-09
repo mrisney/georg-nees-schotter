@@ -10,6 +10,8 @@ Georg Nees Schotter Processing script.
 
 https://en.wikipedia.org/wiki/Georg_Nees
 
+http://www.medienkunstnetz.de/works/schotter/
+
 Created using Processing & P5.js
 
   
